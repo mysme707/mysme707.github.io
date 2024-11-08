@@ -7,24 +7,25 @@ body {
 .stuff {
     width: 620px;
     height: 840px;
-    background-color: rgba(50, 50, 50, 0.750);
+    background-color: rgba(50, 50, 50, 0.850);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px dashed white;
+    border-left: 3px solid #ffffff9c;
     font-size: 1.5em;
     text-align: center;
     padding: 5px;
     margin: 20px auto;
     flex-direction: column;
+    border-radius: 30px;
 }
 #headertext {
     color: white;
     font-size: 3em;
     margin: 0px;
     padding: 0px;
-    font-family: 'Delius', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
 }
 #divider {
     height: 2px;
@@ -36,12 +37,12 @@ body {
     color: white;
     font-size: 1em;
     margin-top: 5px;
-    font-family: 'Delius', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
 }
 ul {
     list-style-type: none;
     padding-left: 0;
-    font-family: 'Delius', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
 }
 li {
     background-image: url('assets/link.png');
@@ -54,8 +55,7 @@ li {
 a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s ease-out;
-    transform: 0.3s ease-out;
+    transition: color 0.3s ease-out, transform 0.3s ease-out;
 }
 a:visited {
     color: white;
