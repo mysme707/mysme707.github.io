@@ -22,6 +22,7 @@ body {
     color: white;
     font-size: 5em;
     margin-bottom: 10px;
+    font-family: 'Delius', sans-serif;
 }
 #divider {
     height: 2px;
@@ -33,4 +34,16 @@ body {
     color: white;
     font-size: 2em;
     margin-top: 20px;
+    font-family: 'Delius', sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: 'Delius', sans-serif;
+}
+li {
+    background-image: url('assets/link.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
 }
