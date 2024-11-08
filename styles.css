@@ -15,25 +15,31 @@ body {
     border: 6px groove white;
     font-size: 1.5em;
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
     flex-direction: column;
 }
 #headertext {
     color: white;
-    font-size: 5em;
+    font-size: 3em;
     margin-bottom: 10px;
     font-family: 'Delius', sans-serif;
 }
 #divider {
     height: 2px;
     background-color: white;
-    width: 50%;
+    width: 80%;
     margin: 20px auto;
 }
 #info {
     color: white;
-    font-size: 2em;
+    font-size: 1em;
     margin-top: 20px;
+    font-family: 'Delius', sans-serif;
+}
+#links {
+    color: white;
+    font-size: 1em;
+    margin-top: 5px;
     font-family: 'Delius', sans-serif;
 }
 ul {
@@ -43,6 +49,7 @@ ul {
 }
 li {
     background-image: url('assets/link.svg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;
