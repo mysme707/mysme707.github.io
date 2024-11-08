@@ -7,7 +7,7 @@ body {
 .stuff {
     width: 620px;
     height: 840px;
-    background-color: rgba(50, 50, 50, 0.500);
+    background-color: rgba(50, 50, 50, 0.750);
     color: white;
     display: flex;
     align-items: center;
@@ -16,6 +16,7 @@ body {
     font-size: 1.5em;
     text-align: center;
     padding: 5px;
+    margin: 20px auto;
     flex-direction: column;
 }
 #headertext {
@@ -42,12 +43,28 @@ ul {
     font-family: 'Delius', sans-serif;
 }
 li {
-    background-image: url('assets/link.svg');
+    background-image: url('assets/link.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 8px;
 }
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    transform: 0.3s ease;
+}
 a:visited {
     color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: purple;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+a:active {
+    color: white;
+    text-decoration: none;
 }
