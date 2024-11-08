@@ -6,16 +6,16 @@ body {
 }
 .stuff {
     width: 600px;
-    height: 800px;
-    background-color: rgb(50, 50, 50);
+    height: 1000px;
+    background-color: rgba(50, 50, 50, 0.650);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 6px groove white;
+    border: 5px dashed white;
     font-size: 1.5em;
     text-align: center;
-    margin: 10px auto;
+    margin: 5px auto;
     flex-direction: column;
 }
 #headertext {
@@ -33,7 +33,7 @@ body {
 .info {
     color: white;
     font-size: 1em;
-    margin-top: 20px;
+    margin-top: 5px;
     font-family: 'Delius', sans-serif;
 }
 ul {
@@ -46,5 +46,8 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 25px;
+    padding-left: 2px;
+}
+a:visited {
+    color: white;
 }
