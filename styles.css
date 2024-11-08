@@ -30,16 +30,10 @@ body {
     width: 80%;
     margin: 20px auto;
 }
-#info {
+.info {
     color: white;
     font-size: 1em;
     margin-top: 20px;
-    font-family: 'Delius', sans-serif;
-}
-#links {
-    color: white;
-    font-size: 1em;
-    margin-top: 5px;
     font-family: 'Delius', sans-serif;
 }
 ul {
