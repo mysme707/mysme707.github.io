@@ -1,0 +1,20 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/481778292471496704/1304518094907113602/bg.png?ex=672faea6&is=672e5d26&hm=4fe210ddcc31af1596ac3717fccd63cbce1e4f0d7bdecfca46b0eb2705854471&');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.stuff {
+    width: 600px;
+    height: 800px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px groove rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
