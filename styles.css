@@ -5,9 +5,9 @@ body {
     background-position: center;
 }
 .stuff {
-    width: 600px;
-    height: 1000px;
-    background-color: rgba(50, 50, 50, 0.650);
+    width: 620px;
+    height: 840px;
+    background-color: rgba(50, 50, 50, 0.500);
     color: white;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ body {
     border: 5px dashed white;
     font-size: 1.5em;
     text-align: center;
-    margin: 5px auto;
+    padding: 5px;
     flex-direction: column;
 }
 #headertext {
@@ -46,7 +46,7 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 2px;
+    padding-left: 8px;
 }
 a:visited {
     color: white;
